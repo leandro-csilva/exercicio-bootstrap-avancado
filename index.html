@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Exercício Bootstrap Avançado</title>
+      <link rel="stylesheet" href="./lib/bootstrap.min.css">
+      <style>
+            .card {
+                  margin-top: 25px;
+            }
+      </style>
+</head>
+<body>
+      <div class="carousel carousel-fade slide" id="carousel" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                  <div data-bs-interval="3000" class="carousel-item active">
+                        <img class="d-block w-100" src="https://i.redd.it/a0ez44uhhx911.jpg" alt="">
+                  </div>
+                  <div data-bs-interval="3000" class="carousel-item">
+                        <img class="d-block w-100" src="https://external-preview.redd.it/made-some-21-9-3440x1440-wallpapers-with-stable-diffusion-v0-XJ9IpJlcZJCkRQ1J3B4wwGHjfYK7qX3i1s0-l_rb1jo.jpg?auto=webp&s=7be2ae730cb09f6f7ca0186a3f2c856916920c29" alt="">
+                  </div>
+                  <div data-bs-interval="3000" class="carousel-item">
+                        <img class="d-block w-100" src="https://i.pinimg.com/originals/19/c9/8b/19c98b100021d687cc5f6e5dcf69bd13.jpg" alt="">
+                  </div>
+            </div>
+            <button data-bs-target="#carousel" data-bs-slide="prev" type="button" class="carousel-control-prev">
+                  <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button data-bs-target="#carousel" data-bs-slide="next" type="button" class="carousel-control-next">
+                  <span class="carousel-control-next-icon"></span>
+            </button>
+            <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"></button>
+                  <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                  <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+            </div>
+      </div>
+      <div class="container" id="grid">
+            </div>
+                  <div class="row">
+                  <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="card">
+                              <div class="card-header">Cabeçalho do Card</div>
+                              <img src="https://wallpaperaccess.com/full/327434.jpg" alt="">
+                              <div class="card-body">
+                                    <h4 class="card-title">Título do Card</h4>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga aspernatur odio facilis doloribus reprehenderit, hic et expedita saepe. Qui labore iusto eius ea esse doloremque tenetur, nihil dolor. Dolor, nihil!</p>
+                                    <a href="#" class="btn btn-primary">Acessar</a>
+                              </div>
+                        </div>
+                  </div>
+                  <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="card">
+                              <div class="card-header">Cabeçalho do Card</div>
+                              <img src="https://wallpapercave.com/wp/wp3788160.jpg" alt="">
+                              <div class="card-body">
+                                    <h4 class="card-title">Título do Card</h4>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga aspernatur odio facilis doloribus reprehenderit, hic et expedita saepe. Qui labore iusto eius ea esse doloremque tenetur, nihil dolor. Dolor, nihil!</p>
+                                    <a href="#" class="btn btn-primary">Acessar</a>
+                              </div>
+                        </div>
+                  </div>
+                  <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="card">
+                              <div class="card-header">Cabeçalho do Card</div>
+                              <img src="https://wallpapercave.com/wp/wp3788129.jpg" alt="">
+                              <div class="card-body">
+                                    <h4 class="card-title">Título do Card</h4>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga aspernatur odio facilis doloribus reprehenderit, hic et expedita saepe. Qui labore iusto eius ea esse doloremque tenetur, nihil dolor. Dolor, nihil!</p>
+                                    <a href="#" class="btn btn-primary">Acessar</a>
+                              </div>
+                        </div>
+                  </div>
+                  <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="card">
+                              <div class="card-header">Cabeçalho do Card</div>
+                              <img src="https://wallpapercave.com/wp/wp3788126.jpg" alt="">
+                              <div class="card-body">
+                                    <h4 class="card-title">Título do Card</h4>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga aspernatur odio facilis doloribus reprehenderit, hic et expedita saepe. Qui labore iusto eius ea esse doloremque tenetur, nihil dolor. Dolor, nihil!</p>
+                                    <a href="#" class="btn btn-primary">Acessar</a>
+                              </div>
+                        </div>
+                  </div>
+                  <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="card">
+                              <div class="card-header">Cabeçalho do Card</div>
+                              <img src="https://i.pinimg.com/originals/19/e1/3c/19e13c58ff5cf5ffe040169d30751737.png" alt="">
+                              <div class="card-body">
+                                    <h4 class="card-title">Título do Card</h4>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga aspernatur odio facilis doloribus reprehenderit, hic et expedita saepe. Qui labore iusto eius ea esse doloremque tenetur, nihil dolor. Dolor, nihil!</p>
+                                    <a href="#" class="btn btn-primary">Acessar</a>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+      </div>
+      <script src="./lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
